@@ -7,8 +7,7 @@ function puke(object) {
 function ConfirmBattle (props) {
   return props.isLoading === true
     ? <p> LOADING... </p>
-    : <p> CONFIRM BATTLE!: {puke(props)} </p>
-
+    : <div> CONFIRM BATTLE!: {puke(props)} </div>
 }
 
 module.exports = ConfirmBattle
